@@ -18,9 +18,6 @@ public class BaseMod {
 	@Instance(value="BaseMod")
 	public static BaseMod instance;
 	
-	@SidedProxy(clientSide="com.biggestnerd.basemod.commonproxy")
-	public static CommonProxy proxy;
-	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 	}
